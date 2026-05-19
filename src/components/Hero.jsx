@@ -9,12 +9,16 @@ export default function Hero() {
         {/* Floating orbs */}
         <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-pink-600/20 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-700/20 rounded-full blur-3xl animate-pulse delay-1000" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-rose-500/10 rounded-full blur-2xl animate-ping" style={{ animationDuration: "4s" }} />
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-rose-500/10 rounded-full blur-2xl animate-ping"
+          style={{ animationDuration: "4s" }}
+        />
         {/* Dot grid */}
         <div
           className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: "radial-gradient(circle, #f9a8d4 1px, transparent 1px)",
+            backgroundImage:
+              "radial-gradient(circle, #f9a8d4 1px, transparent 1px)",
             backgroundSize: "40px 40px",
           }}
         />
@@ -43,18 +47,29 @@ export default function Hero() {
           </h1>
 
           <p className="text-white/60 text-lg leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-            Cosmetic Canvas uses advanced AI to scan your skin tone and recommend
-            the ideal cosmetic products — personalized just for you, completely free.
+            Cosmetic Canvas uses advanced AI to scan your skin tone and
+            recommend the ideal cosmetic products — personalized just for you,
+            completely free.
           </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href="#download"
+              href="https://drive.google.com/uc?export=download&id=1ZEaNO7fIi6CvqBenNcrVks4RAJTAF6HW"
               className="group inline-flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-xl shadow-pink-900/40 hover:shadow-pink-500/40 hover:scale-105 transition-all duration-300"
             >
-              <svg className="w-5 h-5 group-hover:translate-y-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              <svg
+                className="w-5 h-5 group-hover:translate-y-0.5 transition-transform"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
               </svg>
               Download Free App
             </a>
@@ -63,8 +78,18 @@ export default function Hero() {
               className="inline-flex items-center gap-2 border border-white/20 text-white/80 hover:text-white hover:border-pink-400/60 font-semibold px-8 py-4 rounded-2xl backdrop-blur-sm transition-all duration-300"
             >
               Explore Features
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </a>
           </div>
@@ -112,7 +137,11 @@ export default function Hero() {
 
           {/* Android badge */}
           <div className="flex items-center gap-2 bg-white/5 border border-white/10 rounded-xl px-4 py-2">
-            <svg className="w-5 h-5 text-green-400" viewBox="0 0 24 24" fill="currentColor">
+            <svg
+              className="w-5 h-5 text-green-400"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
               <path d="M17.523 15.34l1.08-1.868a.25.25 0 00-.09-.34l-1.09-.63a6.45 6.45 0 00.166-1.502c0-.523-.057-1.03-.166-1.503l1.09-.63a.25.25 0 00.09-.34L17.523 6.66a.25.25 0 00-.342-.091l-1.085.626A6.477 6.477 0 0014 5.67V4.5a.25.25 0 00-.25-.25h-3.5A.25.25 0 0010 4.5v1.17a6.477 6.477 0 00-2.096 1.525L6.82 6.569a.25.25 0 00-.342.091L5.397 8.528a.25.25 0 00.09.341l1.09.63A6.45 6.45 0 006.41 11c0 .524.057 1.03.166 1.502l-1.09.63a.25.25 0 00-.09.341l1.08 1.868a.25.25 0 00.342.09l1.085-.625A6.476 6.476 0 0010 16.33v1.17c0 .138.112.25.25.25h3.5a.25.25 0 00.25-.25v-1.17a6.476 6.476 0 002.096-1.524l1.085.626a.25.25 0 00.342-.091zM12 14a3 3 0 110-6 3 3 0 010 6z" />
             </svg>
             <span className="text-white/60 text-xs">Android 8.0+</span>
@@ -122,7 +151,9 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10">
-        <span className="text-white/30 text-xs tracking-widest uppercase">Scroll</span>
+        <span className="text-white/30 text-xs tracking-widest uppercase">
+          Scroll
+        </span>
         <div className="w-px h-12 bg-gradient-to-b from-pink-400/60 to-transparent animate-bounce" />
       </div>
     </section>

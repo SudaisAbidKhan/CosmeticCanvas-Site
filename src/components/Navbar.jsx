@@ -15,7 +15,7 @@ export default function Navbar() {
     { label: "Features", href: "#features" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Screenshots", href: "#screenshots" },
-    { label: "Download", href: "#download" },
+    { label: "Download", href: "https://drive.google.com/uc?export=download&id=1ZEaNO7fIi6CvqBenNcrVks4RAJTAF6HW" },
   ];
 
   return (
@@ -62,7 +62,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <a
-          href="#download"
+          href="https://drive.google.com/uc?export=download&id=1ZEaNO7fIi6CvqBenNcrVks4RAJTAF6HW"
           className="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-sm font-semibold px-5 py-2.5 rounded-full shadow-md hover:shadow-pink-300/50 hover:scale-105 transition-all duration-300"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
