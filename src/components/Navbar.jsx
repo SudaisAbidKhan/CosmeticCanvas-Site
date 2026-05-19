@@ -62,7 +62,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <a
-          href="https://drive.google.com/uc?export=download&id=1ZEaNO7fIi6CvqBenNcrVks4RAJTAF6HW"
+          href="https://drive.google.com/uc?export=download&id=1fzpkDhXJEh2VT4ShpqOnmP4vD_wOO49G"
           className="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-sm font-semibold px-5 py-2.5 rounded-full shadow-md hover:shadow-pink-300/50 hover:scale-105 transition-all duration-300"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

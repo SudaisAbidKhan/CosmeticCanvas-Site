@@ -55,7 +55,7 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href="https://drive.google.com/uc?export=download&id=1ZEaNO7fIi6CvqBenNcrVks4RAJTAF6HW"
+              href="https://drive.google.com/uc?export=download&id=1fzpkDhXJEh2VT4ShpqOnmP4vD_wOO49G"
               className="group inline-flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-xl shadow-pink-900/40 hover:shadow-pink-500/40 hover:scale-105 transition-all duration-300"
             >
               <svg

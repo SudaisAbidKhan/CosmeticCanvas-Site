@@ -1,6 +1,6 @@
 // ✅ Google Drive APK direct download link configured
 const APK_DOWNLOAD_URL =
-  "https://drive.google.com/uc?export=download&id=1ZEaNO7fIi6CvqBenNcrVks4RAJTAF6HW";
+  "https://drive.google.com/uc?export=download&id=1fzpkDhXJEh2VT4ShpqOnmP4vD_wOO49G";
 
 const highlights = [
   { icon: "🆓", label: "Completely Free", sub: "No subscriptions, ever" },
